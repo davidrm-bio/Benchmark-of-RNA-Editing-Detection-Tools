@@ -1,0 +1,1 @@
+nohup \time -f "Program: %C\nReal time: \t%E\nUser time (s): %U\nSystem time (s): %S\nCPU: %P\nAverage total memory use: %K"  -o Resources.txt bash jacusa.sh  &
