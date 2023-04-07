@@ -1,4 +1,4 @@
-# RNAEditingTools
+# Summary
  
 - Databases: Python scripts to convert databases to JSON files
 - Downstream: Python and R scripts to process tool output
