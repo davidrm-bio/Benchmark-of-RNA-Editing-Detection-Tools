@@ -10,6 +10,7 @@ find . -name "*.bam" | sort | paste - | while read file ; do ~/bin/SPRINT/bin/sp
 # OPTIONS USED
 
 # -rp           Repear masker file obtained from USCS
+# -cd           The distance cutoff of SNV duplets (default of 200)
 
 # Default options used for cluster size.
 # SPRINT cluster RES and only cluster with a count greater than the threshold
