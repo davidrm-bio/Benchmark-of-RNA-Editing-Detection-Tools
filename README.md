@@ -1,6 +1,11 @@
 # Summary
- 
-- Databases: Python scripts to convert databases to JSON files
-- Downstream: Python and R scripts to process tool output
-- Pre-Processing: Bash script for trimming, mapping and quality control for BWA, STAR and HISAT2
-- Tools: Bash scripts for calling tools
+
+## Pre-processing
+This folder contains Bash scripts used for the trimming, mapping and processing of the FASTQ files.
+
+## Tools
+This folder contains  Bash scripts for calling each tool. It includes comments explaining the options used.
+
+## Dowsntream
+This folder contains Python and R scripts used in the downstream processing of the data and for generating the plots. 
+
