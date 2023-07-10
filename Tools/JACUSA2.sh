@@ -12,3 +12,11 @@ find . -name "*.bam" | sort | paste - | while read file ; do samtools calmd $fil
 
 # JACUSA2
 java -jar $JACUSA2 call-2 -a D -p 5 -r Jacusa.out  WT_mock_clone1.bam,WT_mock_clone2.bam,WT_mock_clone3.bam ADAR1KO_mock_clone1.bam,ADAR1KO_mock_clone2.bam,ADAR1KO_mock_clone3.bam
+
+
+# OPTIONS USED
+
+# call-2          Call variants in 2 conditions
+# -a D            pileup filter, D option is to filter base on the distance to Read Start/End, Introns and INDEL  position.
+# -p 5            number of threads
+# -r              Result file
