@@ -34,22 +34,21 @@ This folder contains Python and R scripts used in the downstream processing of t
 
 ### Supplementary Table S1
 
-| Category 	| REDItools2 	| GIREMI 	| RES-Scanner2 	| RNAEditor 	| JACUSA2 	| SPRINT 	| RESIC 	| RDDpred 	| RED-ML 	| DeepRed 	|
-|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|---	|
-| Required software products and tools 	| HTSlib, SAMtools, MPI implementation (In parallel version) 	| HTSlib, SAMtools, R 	| Python >= v3.3, Pysam, BWA, SOAPnuke, JAVA, PILON, BLAT 	| BWA, Picard tools (v1.119), GATK (v3.7), BLAT, Pysam, BEDtools, Python-Qt5, Matplotlib, NumPy, Java (v8) 	| JACUSA2Helper (R package) 	| BWA, SAMtools 	| Bowtie, SAMtools 	| SAMtools, BCFtools, BAMtools, WEKA 	| SAMtools, Perl modules 	| MATLAB 	|
-| Requested data format(s) as input file 	| BAM 	| BAM + Filtered SNVs 	| FASTQ or BAM 	| FASTQ 	| BAM 	| FASTQ or BAM 	| FASTQ 	| BAM 	| BAM 	| List of SNVs 	|
-| Handling of strandness of RNA-seq reads 	| Yes 	| Yes 	| Yes (dUTP protocol) 	| Yes, but no specified strand 	| Yes 	| Yes 	| Yes, but no specified strand 	| No 	| No 	| No 	|
-| Acceptancy of replicate data 	| No 	| Yes 	| No 	| No 	| Yes 	| No 	| Yes 	| Yes 	| No 	| No 	|
-| Direct comparison of DNA- and RNA-seq data 	| Yes 	| No 	| Yes 	| No 	| Yes 	| No 	| Yes 	| No 	| No 	| No 	|
-| Possibility of using only RNA-seq data 	| Yes 	| Yes 	| No 	| Yes 	| Only with replicates 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	|
-| De novo detection of RES 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	|
-| Inclusion of read mappers 	| No 	| No 	| Optional (BWA) 	| Mandatory (BWA) 	| No 	| Optional (BWA) 	| Mandatory (Bowtie) 	| No 	| No 	| No 	|
-| Identification of single-nucleotide variant (SNV) 	| Yes (Samtools) 	| No 	| Yes (Samtools) 	| Yes (GATK) 	| Yes 	| Yes 	| Yes 	| Yes 	| No 	| No 	|
-| Annotation of RES 	| Yes 	| No 	| Yes 	| Yes 	| No 	| No 	| No 	| No 	| Yes (Within repeats) 	| No 	|
-| Filtering of the identified RES 	| Filtering 	| P-value 	| Filtering + P-value 	| Filtering 	| Filtering 	| Filtering 	| Filtering 	| Likelihoods 	| Detection threshold 	| - 	|
-| Ease of installation 	| Medium 	| Easy 	| Medium 	| Hard 	| Easy 	| Easy 	| Easy 	| Medium 	| Easy 	| Hard 	|
-| Date of the latest version 	| Jul-21 	| February 2016 (v0.3.1) 	| Nov-19 	| August 2022 (v1.0) 	| July 2021 (v2.0.2) 	| November 2018 (v0.1.8) 	| Jul-22 	| May 2016 (v1.1) 	| Feb ruary 2018 (v1.0) 	| Mar-18 	|
-
+| **Category** 	| **REDItools2** 	| **GIREMI** 	| **RES-Scanner2** 	| **RNAEditor** 	| **JACUSA2** 	| **SPRINT** 	| **RESIC** 	| **RDDpred** 	| **RED-ML** 	| **DeepRed** 	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
+| **Required software products and tools** 	| HTSlib, SAMtools, MPI implementation (In parallel version) 	| HTSlib, SAMtools, R 	| Python >= v3.3, Pysam, BWA, SOAPnuke, JAVA, PILON, BLAT 	| BWA, Picard tools (v1.119), GATK (v3.7), BLAT, Pysam, BEDtools, Python-Qt5, Matplotlib, NumPy, Java (v8) 	| JACUSA2Helper (R package) 	| BWA, SAMtools 	| Bowtie, SAMtools 	| SAMtools, BCFtools, BAMtools, WEKA 	| SAMtools, Perl modules 	| MATLAB 	|
+| **Requested data format(s) as input file** 	| BAM 	| BAM + Filtered SNVs 	| FASTQ or BAM 	| FASTQ 	| BAM 	| FASTQ or BAM 	| FASTQ 	| BAM 	| BAM 	| List of SNVs 	|
+| **Handling of strandness of RNA-seq reads** 	| Yes 	| Yes 	| Yes (dUTP protocol) 	| Yes, but no specified strand 	| Yes 	| Yes 	| Yes, but no specified strand 	| No 	| No 	| No 	|
+| **Acceptancy of replicate data** 	| No 	| Yes 	| No 	| No 	| Yes 	| No 	| Yes 	| Yes 	| No 	| No 	|
+| **Direct comparison of DNA- and RNA-seq data** 	| Yes 	| No 	| Yes 	| No 	| Yes 	| No 	| Yes 	| No 	| No 	| No 	|
+| **Possibility of using only RNA-seq data** 	| Yes 	| Yes 	| No 	| Yes 	| Only with replicates 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	|
+| **De novo detection of RES** 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	| Yes 	|
+| **Inclusion of read mappers** 	| No 	| No 	| Optional (BWA) 	| Mandatory (BWA) 	| No 	| Optional (BWA) 	| Mandatory (Bowtie) 	| No 	| No 	| No 	|
+| **Identification of single-nucleotide variant (SNV)** 	| Yes (Samtools) 	| No 	| Yes (Samtools) 	| Yes (GATK) 	| Yes 	| Yes 	| Yes 	| Yes 	| No 	| No 	|
+| **Annotation of RES** 	| Yes 	| No 	| Yes 	| Yes 	| No 	| No 	| No 	| No 	| Yes (Within repeats) 	| No 	|
+| **Filtering of the identified RES** 	| Filtering 	| P-value 	| Filtering + P-value 	| Filtering 	| Filtering 	| Filtering 	| Filtering 	| Likelihoods 	| Detection threshold 	| - 	|
+| **Ease of installation** 	| Medium 	| Easy 	| Medium 	| Hard 	| Easy 	| Easy 	| Easy 	| Medium 	| Easy 	| Hard 	|
+| **Date of the latest version** 	| Jul-21 	| February 2016 (v0.3.1) 	| Nov-19 	| August 2022 (v1.0) 	| July 2021 (v2.0.2) 	| November 2018 (v0.1.8) 	| Jul-22 	| May 2016 (v1.1) 	| Feb ruary 2018 (v1.0) 	| Mar-18 	|
 ----
 
 The Supplementary Tables can be found [here](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Tables.xlsx).
