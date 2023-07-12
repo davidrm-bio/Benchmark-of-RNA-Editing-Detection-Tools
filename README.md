@@ -90,7 +90,7 @@ This repository also includes the supplementary figures and tables of the review
 
 **Table S4**. Statistics for RED-ML. The number of RES were obtained individually for each sample by removing RES present in the HEK293T cell line. The average number of RES for each condition and replicate is reported for different values for the detection threshold.
 | **Aligner** 	| **Sample Condition** 	| **Detection Threshold** 	| **Average # RES** 	| **RES SEM** 	| **Average % RES in REDIportal** 	| **Average % RES in Alu** 	|
-|:---:	|:---:	|---:	|---:	|---:	|---:	|---:	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | **BWA** 	| WT 	| 0.5 	| 17110 	| 1400.42 	| 64.61 	| 60.94 	|
 | **BWA** 	| WT 	| 0.6 	| 14699 	| 1223.83 	| 70.16 	| 66.88 	|
 | **BWA** 	| WT 	| 0.7 	| 12117 	| 1009.75 	| 75.36 	| 72.77 	|
@@ -128,7 +128,7 @@ This repository also includes the supplementary figures and tables of the review
 
 **Table S5**. Statistics for REDItools2. The number of RES were obtained individually for each sample by removing RES present in the HEK293T cell line. The average number of RES for each condition and replicate is reported for different numbers of supporting reads.
 | **Aligner** 	| **Sample Condition** 	| **Number of Supporting Reads** 	| **Average # RES** 	| **RES SEM** 	| **Average % RES in REDIportal** 	| **Average % RES in Alu** 	|
-|:---:	|:---:	|---:	|---:	|---:	|---:	|---:	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | **BWA** 	| WT 	| 2 	| 344646 	| 27900.06 	| 32.98 	| 37.76 	|
 | **BWA** 	| WT 	| 4 	| 201839 	| 18471.41 	| 30.99 	| 33.71 	|
 | **BWA** 	| WT 	| 6 	| 124626 	| 11907.42 	| 30.37 	| 31.44 	|
@@ -166,7 +166,7 @@ This repository also includes the supplementary figures and tables of the review
 
 **Table S6**. Statistics for SPRINT. The number of RES were obtained individually for each sample by removing RES present in the HEK293T cell line. The average number of RES for each condition and replicate is reported for different numbers of supporting reads.
 | **Aligner** 	| **Sample Condition** 	| **Number of Supporting Reads** 	| **Average # RES** 	| **RES SEM** 	| **Average % RES in REDIportal** 	| **Average % RES in Alu** 	|
-|:---:	|:---:	|---:	|---:	|---:	|---:	|---:	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | **BWA** 	| WT 	| 2 	| 27707 	| 4147.23 	| 96.19 	| 93.9 	|
 | **BWA** 	| WT 	| 4 	| 6948 	| 1149.79 	| 98.08 	| 94.6 	|
 | **BWA** 	| WT 	| 6 	| 3315 	| 585.57 	| 98.02 	| 95.28 	|
@@ -194,7 +194,7 @@ This repository also includes the supplementary figures and tables of the review
 
 **Table S7**. Statistics for JACUSA2. The number of RES was obtained by merging replicates into one sample for the two conditions (i.e., WT and ADAR1-KO). Only RES present in the three replicates and not present in the HEK293T cell line are reported for different numbers of supporting reads.
 | **Aligner** 	| **Sample Condition** 	| **Number of Supporting Reads** 	| **# RES** 	| **% RES in REDIportal** 	| **% RES in Alu** 	|
-|:---:	|:---:	|---:	|---:	|---:	|---:	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
 | **BWA** 	| WT 	| 2 	| 27388 	| 50.86 	| 47.84 	|
 | **BWA** 	| WT 	| 4 	| 27388 	| 50.86 	| 47.84 	|
 | **BWA** 	| WT 	| 6 	| 25365 	| 49.34 	| 46.5 	|
