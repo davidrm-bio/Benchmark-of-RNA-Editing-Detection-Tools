@@ -56,7 +56,7 @@ This repository also includes the supplementary figures and tables of the review
 
 **Table S2**.  Number of reads per sample. The average number of reads refers to the average amount of reads among three RNA-seq aligners in the BAM files used for the analysis after performing the quality control with SAMtools. Only mapped and properly pair reads were kept with an alignment quality of 20 for further analysis. The accession number from the Sequence Read Archive (SRA) is indicated for each sample.
 | **Sample** 	| **SRA #** 	| **Total # reads in Fastq files (in million reads)** 	| **Average # mapped reads in GRCh37 (in million reads)** 	| **Average # mapped in GRCh38 (in million reads)** 	|
-|:---:	|:---:	|---:	|---:	|---:	|
+|:---:	|:---:	|:---:	|:---:	|:---:	|
 | **WT clone 1** 	| SRR5564274 	| 272,136 	| 52.81 	| 36.75 	|
 | **WT clone 2** 	| SRR5564275 	| 405,346 	| 82.28 	| 54.35 	|
 | **WT clone 3** 	| SRR5564276 	| 309,569 	| 66.84 	| 47 	|
