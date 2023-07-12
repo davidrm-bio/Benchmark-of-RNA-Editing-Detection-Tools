@@ -49,9 +49,11 @@ This repository also includes the supplementary figures and tables of the review
 | **Filtering of the identified RES** 	| Filtering 	| P-value 	| Filtering + P-value 	| Filtering 	| Filtering 	| Filtering 	| Filtering 	| Likelihoods 	| Detection threshold 	| - 	|
 | **Ease of installation** 	| Medium 	| Easy 	| Medium 	| Hard 	| Easy 	| Easy 	| Easy 	| Medium 	| Easy 	| Hard 	|
 | **Date of the latest version** 	| Jul-21 	| February 2016 (v0.3.1) 	| Nov-19 	| August 2022 (v1.0) 	| July 2021 (v2.0.2) 	| November 2018 (v0.1.8) 	| Jul-22 	| May 2016 (v1.1) 	| February 2018 (v1.0) 	| Mar-18 	|
+
 <br />
 <br />
 <br />
+
 **Table S2**.  Number of reads per sample. The average number of reads refers to the average amount of reads among three RNA-seq aligners in the BAM files used for the analysis after performing the quality control with SAMtools. Only mapped and properly pair reads were kept with an alignment quality of 20 for further analysis. The accession number from the Sequence Read Archive (SRA) is indicated for each sample.
 | **Sample** 	| **SRA #** 	| **Total # reads in Fastq files (in million reads)** 	| **Average # mapped reads in GRCh37 (in million reads)** 	| **Average # mapped in GRCh38 (in million reads)** 	|
 |:---:	|:---:	|---:	|---:	|---:	|
@@ -61,9 +63,11 @@ This repository also includes the supplementary figures and tables of the review
 | **ADAR1-KO clone 1** 	| SRR5564272 	| 347,676 	| 75.99 	| 55.12 	|
 | **ADAR1-KO clone 2** 	| SRR5564273 	| 328,446 	| 60.6 	| 39.5 	|
 | **ADAR1-KO clone 3** 	| SRR5564268 	| 509,534 	| 94.89 	| 72.79 	|
+
 <br />
 <br />
 <br />
+
 **Table S3**. Statistics for BCFtools. The number of RES were obtained individually for each sample by removing RES present in the HEK293T cell line. The average number of RES for each condition and replicate is reported for different minor allele frequency threshold values.
 | **Aligner** 	| **Sample Condition** 	| **Minor Allele Frequency** 	| **Average # RES** 	| **RES SEM** 	| **Average % RES in REDIportal** 	| **Average % RES in Alu** 	|
 |:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
@@ -79,9 +83,11 @@ This repository also includes the supplementary figures and tables of the review
 | **STAR** 	| WT 	| 0.1 	| 7973 	| 835.43 	| 76.13 	| 71.86 	|
 | **STAR** 	| ADAR1KO 	| 0 	| 8410 	| 949.12 	| 6.98 	| 11.07 	|
 | **STAR** 	| ADAR1KO 	| 0.1 	| 2010 	| 213.62 	| 9.42 	| 11.77 	|
+
 <br />
 <br />
 <br />
+
 **Table S4**. Statistics for RED-ML. The number of RES were obtained individually for each sample by removing RES present in the HEK293T cell line. The average number of RES for each condition and replicate is reported for different values for the detection threshold.
 | **Aligner** 	| **Sample Condition** 	| **Detection Threshold** 	| **Average # RES** 	| **RES SEM** 	| **Average % RES in REDIportal** 	| **Average % RES in Alu** 	|
 |:---:	|:---:	|---:	|---:	|---:	|---:	|---:	|
@@ -115,9 +121,11 @@ This repository also includes the supplementary figures and tables of the review
 | **STAR** 	| ADAR1KO 	| 0.7 	| 2267 	| 228.96 	| 36.78 	| 49.72 	|
 | **STAR** 	| ADAR1KO 	| 0.8 	| 1571 	| 166.37 	| 39.05 	| 52.39 	|
 | **STAR** 	| ADAR1KO 	| 0.9 	| 396 	| 51.28 	| 35.64 	| 47.15 	|
+
 <br />
 <br />
 <br />
+
 **Table S5**. Statistics for REDItools2. The number of RES were obtained individually for each sample by removing RES present in the HEK293T cell line. The average number of RES for each condition and replicate is reported for different numbers of supporting reads.
 | **Aligner** 	| **Sample Condition** 	| **Number of Supporting Reads** 	| **Average # RES** 	| **RES SEM** 	| **Average % RES in REDIportal** 	| **Average % RES in Alu** 	|
 |:---:	|:---:	|---:	|---:	|---:	|---:	|---:	|
@@ -151,9 +159,11 @@ This repository also includes the supplementary figures and tables of the review
 | **STAR** 	| ADAR1KO 	| 6 	| 55287 	| 9656.7 	| 7.1 	| 13.58 	|
 | **STAR** 	| ADAR1KO 	| 8 	| 30074 	| 5458.24 	| 7.42 	| 13.15 	|
 | **STAR** 	| ADAR1KO 	| 10 	| 11651 	| 1959.67 	| 9.24 	| 13.8 	|
+
 <br />
 <br />
 <br />
+
 **Table S6**. Statistics for SPRINT. The number of RES were obtained individually for each sample by removing RES present in the HEK293T cell line. The average number of RES for each condition and replicate is reported for different numbers of supporting reads.
 | **Aligner** 	| **Sample Condition** 	| **Number of Supporting Reads** 	| **Average # RES** 	| **RES SEM** 	| **Average % RES in REDIportal** 	| **Average % RES in Alu** 	|
 |:---:	|:---:	|---:	|---:	|---:	|---:	|---:	|
@@ -177,9 +187,11 @@ This repository also includes the supplementary figures and tables of the review
 | **HISAT2** 	| ADAR1KO 	| 6 	| 7 	| 2.89 	| 100 	| 100 	|
 | **HISAT2** 	| ADAR1KO 	| 8 	| 3 	| 1.2 	| 100 	| 100 	|
 | **HISAT2** 	| ADAR1KO 	| 10 	| 3 	| 0.88 	| 100 	| 100 	|
+
 <br />
 <br />
 <br />
+
 **Table S7**. Statistics for JACUSA2. The number of RES was obtained by merging replicates into one sample for the two conditions (i.e., WT and ADAR1-KO). Only RES present in the three replicates and not present in the HEK293T cell line are reported for different numbers of supporting reads.
 | **Aligner** 	| **Sample Condition** 	| **Number of Supporting Reads** 	| **# RES** 	| **% RES in REDIportal** 	| **% RES in Alu** 	|
 |:---:	|:---:	|---:	|---:	|---:	|---:	|
