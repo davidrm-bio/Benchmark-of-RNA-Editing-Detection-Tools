@@ -5,7 +5,7 @@ This repository contains the supplementary material for the review article '_Ben
 * [Tools](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/tree/main/Tools): includes the Bash scripts used for calling each tool. These scripts include comments explaining the different options.
 * [Downstream](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/tree/main/Downstream): includes the Python and R scripts used in the downstream processing of the data for generating the plots. 
 
-This repository also includes the supplementary figures and tables of the review article. The supplementary tables can be downloaded from [here]((https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Tables.xlsx). These tables and the supplementary figures are also shown below. 
+This repository also includes the supplementary figures and tables of the review article. The supplementary tables can be downloaded from [here](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Tables.xlsx). These tables and the supplementary figures are also shown below. 
 
 #### Supplementary Figure S1
 ![](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Figure_S1.png)
