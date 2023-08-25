@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats as sem
 from more_itertools import locate
+import matplotlib as mpl
 
 # Global variables
 path = '..'
@@ -186,6 +187,7 @@ for n, ax in enumerate(axs): # Enumerate subplots as A, B, C ...
     ax.spines['right'].set_color('none')
     ax.xaxis.set_ticks_position('bottom')
     ax.yaxis.set_ticks_position('left')
+    ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
 
 # Legend
 lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes]
