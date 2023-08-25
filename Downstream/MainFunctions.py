@@ -9,6 +9,7 @@ from IPython import display
 import string
 import matplotlib.pyplot as plt
 from more_itertools import locate
+import matplotlib as mpl
 warnings.filterwarnings("ignore")
 
 
@@ -307,6 +308,7 @@ def create_plot (tmp, filename, aligners, title, label_axisX = 'Number of suppor
         ax.spines['right'].set_color('none')
         ax.xaxis.set_ticks_position('bottom')
         ax.yaxis.set_ticks_position('left')
+        ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
 
     # Legend
     lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes]
@@ -459,6 +461,7 @@ def create_plot_for_Jacusa (tmp, filename, aligners, title, label_axisX = 'Numbe
         ax.spines['right'].set_color('none')
         ax.xaxis.set_ticks_position('bottom')
         ax.yaxis.set_ticks_position('left')
+        ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
 
     # Legend
     lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes]
