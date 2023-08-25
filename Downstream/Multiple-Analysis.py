@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats as sem
 from more_itertools import locate
+import matplotlib as mpl
 
 # Global variables
 path = '..'
@@ -16,8 +17,8 @@ conditions = ['WT', 'ADAR1KO']
 thresholds = [['2', '4', '6', '8', '10'],  # For the rest
              ['0.5','0.6', '0.7', '0.8', '0.9'], # For REDML
              ['0', '0.1']] # For BCFtools
-categories = ['N_res', 'SEM_res', 'N_db', 'SEM_db', 'N_Alu', 'SEM_Alu']
-tools = ['BCFTools', 'RED-ML', 'SPRINT', 'REDItools2']
+categories = ['N_res', 'N_db', 'N_Alu']
+tools = ['BCFTools', 'RED-ML', 'SPRINT', 'REDItools2', 'JACUSA2']
 
 # Load Data
 reditools = load_database(path, 'Data_REDItool2-Multiple.json')
@@ -161,6 +162,7 @@ for n, ax in enumerate(axs): # Enumerate subplots as A, B, C ...
     ax.spines['right'].set_color('none')
     ax.xaxis.set_ticks_position('bottom')
     ax.yaxis.set_ticks_position('left')
+    ax.yaxis.set_major_formatter(mpl.ticker.StrMethodFormatter('{x:,.0f}'))
 
 # Legend
 lines_labels = [ax.get_legend_handles_labels() for ax in fig.axes]
