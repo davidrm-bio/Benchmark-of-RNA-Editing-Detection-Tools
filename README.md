@@ -14,22 +14,22 @@ This repository also includes the supplementary figures and tables of the review
 <br />
 <br />
 ![](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Figure_S2.png)
-**Supplementary Figure S2.** Statistics for RED-ML. For each condition, replicate samples (n = 3) were processed individually keeping RNA editing sites (RES) absent in the HEK293T cell line. The average and standard error of the mean are reported for each one of the measurements included: (A,B) average number (#) of total RES; (C,D) average percentage (%) of RES in REDIportal; (E,F) average percentage of RES in Alu regions.   Different values for the detection threshold were chosen as shown above.
+**Supplementary Figure S2.** Statistics for RED-ML. For each condition, replicate samples (_n_ = 3) were processed individually keeping RNA editing sites (RES) absent in the HEK293T cell line. The average and standard error of the mean are reported for each one of the measurements included: (A,B) average number (#) of total RES; (C,D) average percentage (%) of RES in REDIportal; (E,F) average percentage of RES in Alu regions.   Different values for the detection threshold were chosen as shown above.
 <br />
 <br />
 <br />
 ![](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Figure_S3.png)
-**Supplementary Figure S3.** Statistics for REDItools2. For each condition, replicate samples (n = 3) were processed individually keeping RNA editing sites (RES) absent in the HEK293T cell line. The average and standard error of the mean are reported for each one of the measurements included: (A,B) average number (#) of total RES; (C,D) average percentage (%) of RES in REDIportal; (E,F) average percentage of RES in Alu regions. Different threshold values for the number of supporting reads were chosen as shown above.
+**Supplementary Figure S3.** Statistics for REDItools2. For each condition, replicate samples (_n_ = 3) were processed individually keeping RNA editing sites (RES) absent in the HEK293T cell line. The average and standard error of the mean are reported for each one of the measurements included: (A,B) average number (#) of total RES; (C,D) average percentage (%) of RES in REDIportal; (E,F) average percentage of RES in Alu regions. Different threshold values for the number of supporting reads were chosen as shown above.
 <br />
 <br />
 <br />
 ![](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Figure_S4.png)
-**Supplementary Figure S4.** Statistics for SPRINT. For each condition, replicate samples (n = 3) were processed individually keeping RNA editing sites (RES) absent in the HEK293T cell line. The average and standard error of the mean are reported for each one of the measurements included: (A,B) average number (#) of total RES; (C,D) average percentage (%) of RES in REDIportal; (E,F) average percentage of RES in Alu regions.  Different threshold values for the number of supporting reads were chosen as shown above.
+**Supplementary Figure S4.** Statistics for SPRINT. For each condition, replicate samples (_n_ = 3) were processed individually keeping RNA editing sites (RES) absent in the HEK293T cell line. The average and standard error of the mean are reported for each one of the measurements included: (A,B) average number (#) of total RES; (C,D) average percentage (%) of RES in REDIportal; (E,F) average percentage of RES in Alu regions.  Different threshold values for the number of supporting reads were chosen as shown above.
 <br />
 <br />
 <br />
 ![](https://github.com/davidrm-bio/Benchmark-of-RNA-Editing-Detection-Tools/blob/main/Supplementary_Figure_S5.png)
-**Supplementary Figure S5.** Statistics for JACUSA2. For each condition, replicate samples (n = 3) were merged into one sample excluding RNA editing sites (RES) not present in the three replicates and present in the HEK293T cell line. Different measurements are reported: (A,B) total number (#) of RES; (C,D) percentage (%) of RES in REDIportal; (E,F) percentage of RES in Alu regions. Different threshold values for the number of supporting reads were chosen.
+**Supplementary Figure S5.** Statistics for JACUSA2. For each condition, replicate samples (_n_ = 3) were merged into one sample excluding RNA editing sites (RES) not present in the three replicates and present in the HEK293T cell line. Different measurements are reported: (A,B) total number (#) of RES; (C,D) percentage (%) of RES in REDIportal; (E,F) percentage of RES in Alu regions. Different threshold values for the number of supporting reads were chosen.
 <br />
 <br />
 #### Supplementary Tables
